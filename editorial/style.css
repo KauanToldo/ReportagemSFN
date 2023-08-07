@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #EE302F;
+    width: 100%;
+    padding: 10px 50px;
+    border-bottom: 5px solid #00AB4E;
+    outline: 5px solid #FFCB04;
+}
+
+header h1 {
+    letter-spacing: 2px;
+    color: white;
+}
+
+nav {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+nav i {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+main {
+    margin: 100px 200px;
+}
+
+.line {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#autores {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#autores-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.autor img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.281);
+}
+
+.autor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autor h2 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.autor h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer {
+    position: relative;
+    height: 28vh;
+    background-color: #EE302F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#to-top {
+    padding: 15px 17px;
+    background-color: #00AB4E;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#to-top:hover {
+    background-color: #038b40;
+}
